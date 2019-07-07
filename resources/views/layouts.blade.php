@@ -68,6 +68,11 @@
         </style>
     </head>
     <body>
+        @if(Session::has('success'))
+          <div class="alert alert-success" role="alert">
+            {{ Session::get('success')}}
+          </div>
+        @endif
         <div class="container" style="margin-top:50px;">
 
             <div class="content">
