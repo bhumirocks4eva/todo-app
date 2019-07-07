@@ -1,5 +1,6 @@
 @extends('layouts')
 
 @section('content')
-  <h2>Welcome to a simple To-do application made with Laravel</h2>
+  <h2>Welcome to a simple todos application</h2>
+  <a href="/todos">Visit my todos</a>
 @endsection
