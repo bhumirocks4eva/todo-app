@@ -68,10 +68,10 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="container">
 
             <div class="content">
-                <div class="container">
+                <div class="center">
                     @yield('content')
                 </div>
             </div>
